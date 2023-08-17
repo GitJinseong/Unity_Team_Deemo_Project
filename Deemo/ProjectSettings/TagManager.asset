@@ -4,7 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - DifficultyPrefab
+  - TopLine
+  - JudgeCollider
+  - Note
+  - JudgeLine
   layers:
   - Default
   - TransparentFX
@@ -12,8 +15,8 @@ TagManager:
   - 
   - Water
   - UI
-  - Difficulty
-  - Btn
+  - 
+  - 
   - 
   - 
   - 
@@ -41,4 +44,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2120380937
+    locked: 0
+  - name: Object
+    uniqueID: 951516317
+    locked: 0
+  - name: JudgeBtn
+    uniqueID: 1271097017
     locked: 0
