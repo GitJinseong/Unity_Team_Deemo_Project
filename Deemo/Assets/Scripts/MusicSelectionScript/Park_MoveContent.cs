@@ -102,28 +102,28 @@ public class Park_MoveContent : MonoBehaviour
             isCoroutine = false;
         }
 
-        // 이제 덜덜 떨리지 않고 완료되도록 보강
-        if (!isScrolling)
-        {
-            Debug.Log("호출");
+        //// 이제 덜덜 떨리지 않고 완료되도록 보강
+        //if (!isScrolling)
+        //{
+        //    Debug.Log("호출");
 
-            float elapsedTime = 0.0f;
+        //    float elapsedTime = 0.0f;
 
-            while (elapsedTime < 5.0f)
-            {
-                elapsedTime += Time.deltaTime;
+        //    while (elapsedTime < 5.0f)
+        //    {
+        //        elapsedTime += Time.deltaTime;
 
-                float time = Mathf.Clamp01(elapsedTime / 5.0f);
+        //        float time = Mathf.Clamp01(elapsedTime / 5.0f);
 
-                rectTransform.anchoredPosition = new Vector2(rectTransform.anchoredPosition.x,
-                    Mathf.Lerp(rectTransform.anchoredPosition.y, targetY, time));
+        //        rectTransform.anchoredPosition = new Vector2(rectTransform.anchoredPosition.x,
+        //            Mathf.Lerp(rectTransform.anchoredPosition.y, targetY, time));
 
-                yield return null;
-            }
+        //        yield return null;
+        //    }
 
-            // 위치 보정
-            rectTransform.anchoredPosition = new Vector2(rectTransform.anchoredPosition.x, targetY);
-        }
+        //    // 위치 보정
+        //    rectTransform.anchoredPosition = new Vector2(rectTransform.anchoredPosition.x, targetY);
+        //}
     }
 
     //private void Update()
