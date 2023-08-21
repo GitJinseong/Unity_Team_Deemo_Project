@@ -24,17 +24,32 @@ public class Choi_JudgeManager : MonoBehaviour
             if (note_PosY < judge_Charming)
             {
                 note_CollisionDetection.Hide();
+<<<<<<< HEAD
                 Choi_GameManager.instance.AddCharming();
+=======
+                Choi_GameManager.instance.AddCombo();
+                Choi_GameManager.instance.ChangeJudgeText("CHARMING!");
+>>>>>>> origin/Park
             }
             else if (note_PosY < judge_Normal)
             {
                 note_CollisionDetection.Hide();
+<<<<<<< HEAD
                 Choi_GameManager.instance.AddNormal();
+=======
+                Choi_GameManager.instance.AddCombo();
+                Choi_GameManager.instance.ChangeJudgeText("NORMAL!");
+>>>>>>> origin/Park
             }
             else
             {
                 note_CollisionDetection.Hide();
+<<<<<<< HEAD
                 Choi_GameManager.instance.AddMiss();
+=======
+                Choi_GameManager.instance.ResetCombo();
+                Choi_GameManager.instance.ChangeJudgeText("MISS!");
+>>>>>>> origin/Park
             }
         }
     }
