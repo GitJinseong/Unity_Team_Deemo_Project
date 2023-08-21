@@ -183,7 +183,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uD310\uC815 \uC870\uC808"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9985d5f04cf84b44fbd8bc2405aa6b94, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 18307a92a90ff37429012a0d272eaf16, type: 2}
   m_sharedMaterial: {fileID: -15616213555381910, guid: 9985d5f04cf84b44fbd8bc2405aa6b94, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &157071206
@@ -417,7 +417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc61c2540e941bf46ad2ec3a6ef757c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonClickSound: {fileID: 8300000, guid: 090d5849bcff4af4d9c6bfd1ef0f9441, type: 3}
+  buttonClickSound: {fileID: 8300000, guid: 14c0aac95c2d99848b60f3e82bfacae2, type: 3}
   volume: 0.5
 --- !u!1 &217083713
 GameObject:
@@ -479,7 +479,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uBAA9\uD45C \uB2EC\uC131"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9985d5f04cf84b44fbd8bc2405aa6b94, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 18307a92a90ff37429012a0d272eaf16, type: 2}
   m_sharedMaterial: {fileID: -15616213555381910, guid: 9985d5f04cf84b44fbd8bc2405aa6b94, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -543,7 +543,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &217083716
@@ -1121,7 +1121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc61c2540e941bf46ad2ec3a6ef757c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonClickSound: {fileID: 8300000, guid: 090d5849bcff4af4d9c6bfd1ef0f9441, type: 3}
+  buttonClickSound: {fileID: 8300000, guid: 14c0aac95c2d99848b60f3e82bfacae2, type: 3}
   volume: 0.5
 --- !u!114 &411639170
 MonoBehaviour:
@@ -1623,7 +1623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc61c2540e941bf46ad2ec3a6ef757c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonClickSound: {fileID: 8300000, guid: 090d5849bcff4af4d9c6bfd1ef0f9441, type: 3}
+  buttonClickSound: {fileID: 8300000, guid: 14c0aac95c2d99848b60f3e82bfacae2, type: 3}
   volume: 0.5
 --- !u!1 &635688180
 GameObject:
@@ -1824,7 +1824,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uB178\uD2B8 \uC774\uD399\uD2B8"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9985d5f04cf84b44fbd8bc2405aa6b94, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 18307a92a90ff37429012a0d272eaf16, type: 2}
   m_sharedMaterial: {fileID: -15616213555381910, guid: 9985d5f04cf84b44fbd8bc2405aa6b94, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1888,7 +1888,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &819248177
@@ -2102,7 +2102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc61c2540e941bf46ad2ec3a6ef757c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonClickSound: {fileID: 8300000, guid: 090d5849bcff4af4d9c6bfd1ef0f9441, type: 3}
+  buttonClickSound: {fileID: 8300000, guid: 14c0aac95c2d99848b60f3e82bfacae2, type: 3}
   volume: 0.5
 --- !u!1 &977512041
 GameObject:
@@ -2164,7 +2164,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uD074\uB77C\uC6B0\uB4DC \uC800\uC7A5"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9985d5f04cf84b44fbd8bc2405aa6b94, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 18307a92a90ff37429012a0d272eaf16, type: 2}
   m_sharedMaterial: {fileID: -15616213555381910, guid: 9985d5f04cf84b44fbd8bc2405aa6b94, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2228,7 +2228,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &977512044
@@ -2398,7 +2398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc61c2540e941bf46ad2ec3a6ef757c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonClickSound: {fileID: 8300000, guid: 090d5849bcff4af4d9c6bfd1ef0f9441, type: 3}
+  buttonClickSound: {fileID: 8300000, guid: 14c0aac95c2d99848b60f3e82bfacae2, type: 3}
   volume: 0.5
 --- !u!1 &1014099471
 GameObject:
@@ -2460,7 +2460,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uD074\uB798\uC2DDUI"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9985d5f04cf84b44fbd8bc2405aa6b94, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 18307a92a90ff37429012a0d272eaf16, type: 2}
   m_sharedMaterial: {fileID: -15616213555381910, guid: 9985d5f04cf84b44fbd8bc2405aa6b94, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2524,7 +2524,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1014099474
@@ -2694,7 +2694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc61c2540e941bf46ad2ec3a6ef757c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonClickSound: {fileID: 8300000, guid: 090d5849bcff4af4d9c6bfd1ef0f9441, type: 3}
+  buttonClickSound: {fileID: 8300000, guid: 14c0aac95c2d99848b60f3e82bfacae2, type: 3}
   volume: 0.5
 --- !u!1 &1108696222
 GameObject:
@@ -3064,7 +3064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc61c2540e941bf46ad2ec3a6ef757c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonClickSound: {fileID: 8300000, guid: 090d5849bcff4af4d9c6bfd1ef0f9441, type: 3}
+  buttonClickSound: {fileID: 8300000, guid: 14c0aac95c2d99848b60f3e82bfacae2, type: 3}
   volume: 0.5
 --- !u!1 &1307134781
 GameObject:
@@ -3659,7 +3659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc61c2540e941bf46ad2ec3a6ef757c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonClickSound: {fileID: 8300000, guid: 090d5849bcff4af4d9c6bfd1ef0f9441, type: 3}
+  buttonClickSound: {fileID: 8300000, guid: 14c0aac95c2d99848b60f3e82bfacae2, type: 3}
   volume: 0.5
 --- !u!1 &1588665958
 GameObject:
@@ -3721,7 +3721,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uD0A4 \uC0AC\uC6B4\uB4DC"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9985d5f04cf84b44fbd8bc2405aa6b94, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 18307a92a90ff37429012a0d272eaf16, type: 2}
   m_sharedMaterial: {fileID: -15616213555381910, guid: 9985d5f04cf84b44fbd8bc2405aa6b94, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3785,7 +3785,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1588665961
@@ -4006,7 +4006,6 @@ GameObject:
   - component: {fileID: 1685018305}
   - component: {fileID: 1685018304}
   - component: {fileID: 1685018307}
-  - component: {fileID: 1685018308}
   - component: {fileID: 1685018309}
   m_Layer: 5
   m_Name: Btn_Play
@@ -4091,18 +4090,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1685018308}
-        m_TargetAssemblyTypeName: ButtonSound, Assembly-CSharp
-        m_MethodName: PlayButtonClickSound
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1685018307}
         m_TargetAssemblyTypeName: ButtonResize, Assembly-CSharp
         m_MethodName: ResetButtonImageScale
@@ -4179,20 +4166,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resizeScale: 0.9
   resizeDuration: 0.2
---- !u!114 &1685018308
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1685018302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc61c2540e941bf46ad2ec3a6ef757c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonClickSound: {fileID: 8300000, guid: de06e55a81146eb46913aea88b40d94b, type: 3}
-  volume: 0.5
 --- !u!114 &1685018309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4206,8 +4179,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadScene: {fileID: 607415890}
-  delay: 0.3
-  sceneName: 
+  delay: 0.5
+  sceneName: MusicSelectionSceneLoad
 --- !u!1 &1768025386
 GameObject:
   m_ObjectHideFlags: 0
@@ -4268,7 +4241,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uC21C\uC704\uD45C"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9985d5f04cf84b44fbd8bc2405aa6b94, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 18307a92a90ff37429012a0d272eaf16, type: 2}
   m_sharedMaterial: {fileID: -15616213555381910, guid: 9985d5f04cf84b44fbd8bc2405aa6b94, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -4332,7 +4305,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1768025389
