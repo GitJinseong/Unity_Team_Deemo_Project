@@ -55,16 +55,11 @@ public class Choi_JSONReader : MonoBehaviour
         public List<NoteData> notes;
     }
 
-<<<<<<< HEAD
     public float difficulty_time; // 난이도 구분 Hard = 0.15 / Normal = 0.3 / Easy = 0.4f
-=======
-    public float difficulty_time = 0.4f; // 0.4f는 easy
->>>>>>> origin/Park
     private float previous_PosX;
     private int samePosXCount;
     private int noteLine;
 
-<<<<<<< HEAD
     private void Awake()
     {
         switch (Park_GameManager.instance.difficulty)
@@ -86,10 +81,6 @@ public class Choi_JSONReader : MonoBehaviour
     void Start()
     {
         Debug.Log(Park_GameManager.instance.title);
-=======
-    void Start()
-    {
->>>>>>> origin/Park
         for (int i = 0; i < Park_GameManager.instance.musicInformation["Title"].Count; i++)
         {
             if (Park_GameManager.instance.musicInformation["Title"][i] == Park_GameManager.instance.title)
@@ -200,47 +191,27 @@ public class Choi_JSONReader : MonoBehaviour
         if (pitchPercentage >= 0.8f)
         {
             adjustedX = 3.6f;
-<<<<<<< HEAD
             noteLine = 4;
-=======
-            noteLine = 5;
->>>>>>> origin/Park
         }
         else if (pitchPercentage >= 0.6f)
         {
             adjustedX = 1.8f;
-<<<<<<< HEAD
             noteLine = 3;
-=======
-            noteLine = 4;
->>>>>>> origin/Park
         }
         else if (pitchPercentage >= 0.4f)
         {
             adjustedX = 0f;
-<<<<<<< HEAD
             noteLine = 2;
-=======
-            noteLine = 3;
->>>>>>> origin/Park
         }
         else if (pitchPercentage >= 0.2f)
         {
             adjustedX = -1.8f;
-<<<<<<< HEAD
             noteLine = 1;
-=======
-            noteLine = 2;
->>>>>>> origin/Park
         }
         else
         {
             adjustedX = -3.6f;
-<<<<<<< HEAD
             noteLine = 0;
-=======
-            noteLine = 1;
->>>>>>> origin/Park
         }
 
         if (previous_PosX != adjustedX)
@@ -258,16 +229,16 @@ public class Choi_JSONReader : MonoBehaviour
 
 
     float CalculatePitchPercentage(List<SoundData> sounds)
-{
-    if (sounds.Count > 0)
     {
-        int minPitch, maxPitch;
-        SoundData.GetMinMaxPitch(sounds, out minPitch, out maxPitch);
+        if (sounds.Count > 0)
+        {
+            int minPitch, maxPitch;
+            SoundData.GetMinMaxPitch(sounds, out minPitch, out maxPitch);
 
-        // Calculate pitch percentage based on the minimum pitch value
-        float pitchPercentage = (float)minPitch / 100f;
-        return pitchPercentage;
+            // Calculate pitch percentage based on the minimum pitch value
+            float pitchPercentage = (float)minPitch / 100f;
+            return pitchPercentage;
+        }
+        return 0.5f; // Default pitch percentage if no sounds
     }
-    return 0.5f; // Default pitch percentage if no sounds
-}
 }

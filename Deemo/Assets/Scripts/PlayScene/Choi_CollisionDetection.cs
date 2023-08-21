@@ -87,12 +87,7 @@ public class Choi_CollisionDetection : MonoBehaviour
         yield return new WaitForSeconds(hideTime);
         if (isHide == false)
         {
-<<<<<<< HEAD
             Choi_GameManager.instance.AddMiss();
-=======
-            Choi_GameManager.instance.ResetCombo();
-            Choi_GameManager.instance.ChangeJudgeText("MISS!");
->>>>>>> origin/Park
         }
         isHide = false;
         isJudgeHide = false;
