@@ -237,7 +237,15 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 0, y: -250}
+=======
+<<<<<<< HEAD
+  m_AnchoredPosition: {x: 0, y: -250}
+=======
+  m_AnchoredPosition: {x: 0, y: -245}
+>>>>>>> origin/Park
+>>>>>>> c013a51fda2e20590b6ee9a7fc0fd9e9ee1407dd
   m_SizeDelta: {x: 199, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &40640952
@@ -323,7 +331,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 199, y: 32}
+  m_Size: {x: 298.5, y: 64}
   m_EdgeRadius: 0
 --- !u!114 &40640956
 MonoBehaviour:
@@ -389,7 +397,15 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 0, y: 40}
+=======
+<<<<<<< HEAD
+  m_AnchoredPosition: {x: 0, y: 40}
+=======
+  m_AnchoredPosition: {x: 0, y: 10}
+>>>>>>> origin/Park
+>>>>>>> c013a51fda2e20590b6ee9a7fc0fd9e9ee1407dd
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &68893397
@@ -709,7 +725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c3dc0eb8f2c1ce49ae512ff464a86dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollHandleObject: {fileID: 379952342}
+  scrollHandleObject: {fileID: 1823642804}
   scrollHandle: {fileID: 1823642809}
   left: {fileID: 1565455909}
   right: {fileID: 1063063879}
@@ -1031,8 +1047,8 @@ GameObject:
   m_Component:
   - component: {fileID: 379952343}
   - component: {fileID: 379952344}
-  - component: {fileID: 379952347}
   - component: {fileID: 379952346}
+  - component: {fileID: 379952347}
   m_Layer: 5
   m_Name: Config_Bar
   m_TagString: Untagged
@@ -2609,7 +2625,7 @@ GameObject:
   - component: {fileID: 1063063884}
   - component: {fileID: 1063063885}
   - component: {fileID: 1063063887}
-  - component: {fileID: 1063063886}
+  - component: {fileID: 1063063888}
   m_Layer: 5
   m_Name: Config_Right
   m_TagString: Untagged
@@ -2703,7 +2719,22 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 22}
   serializedVersion: 2
   m_Radius: 88
---- !u!114 &1063063886
+--- !u!114 &1063063887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063063879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dc198a94bfabab4e8525978d453b7b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnClickSettingUi: {fileID: 68893398}
+  maxAlpha: 1
+  minAlpha: 0.5
+--- !u!114 &1063063888
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2721,21 +2752,6 @@ MonoBehaviour:
   center: {fileID: 173460089}
   keyText: {fileID: 1057971691}
   isCheck: 0
---- !u!114 &1063063887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1063063879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6dc198a94bfabab4e8525978d453b7b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnClickSettingUi: {fileID: 68893398}
-  maxAlpha: 1
-  minAlpha: 0.5
 --- !u!1 &1126815814
 GameObject:
   m_ObjectHideFlags: 0
@@ -3270,7 +3286,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

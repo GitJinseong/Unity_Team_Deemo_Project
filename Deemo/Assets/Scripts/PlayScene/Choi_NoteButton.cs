@@ -43,6 +43,10 @@ public class Choi_NoteButton : MonoBehaviour
         Debug.Log($"클릭한 노트의 y좌표 : {transform.position.y}");
         if (transform.position.y < judge_Charming)
         {
+<<<<<<< HEAD
+            Choi_GameManager.instance.AddCharming();
+=======
+<<<<<<< HEAD
             Choi_GameManager.instance.AddCharming();
         }
         else if (transform.position.y < judge_Normal)
@@ -52,6 +56,24 @@ public class Choi_NoteButton : MonoBehaviour
         else
         {
             Choi_GameManager.instance.AddMiss();
+=======
+            Choi_GameManager.instance.AddCombo();
+            Choi_GameManager.instance.ChangeJudgeText("CHARMING!");
+>>>>>>> c013a51fda2e20590b6ee9a7fc0fd9e9ee1407dd
+        }
+        else if (transform.position.y < judge_Normal)
+        {
+            Choi_GameManager.instance.AddNormal();
+        }
+        else
+        {
+<<<<<<< HEAD
+            Choi_GameManager.instance.AddMiss();
+=======
+            Choi_GameManager.instance.ResetCombo();
+            Choi_GameManager.instance.ChangeJudgeText("MISS!");
+>>>>>>> origin/Park
+>>>>>>> c013a51fda2e20590b6ee9a7fc0fd9e9ee1407dd
         }
         script_CollisionDetection.Hide();
     }
