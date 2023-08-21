@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Park_OnClickEffectBack : MonoBehaviour
 {
@@ -19,6 +20,13 @@ public class Park_OnClickEffectBack : MonoBehaviour
     private Vector2 pressedScale;
     private Vector2 overScale;
 
+    // 씬 변경을 위한 변수
+    public string scene;
+
+    // 이미지 크기 배수 변경의 위한 변수
+    public float pressedMult;
+    public float overMult;
+
     // 크기 변경을 부드럽게 하기 위한 변수
     private float durationFirst = 0.2f;
     private float durationSecound = 0.1f;
@@ -34,8 +42,8 @@ public class Park_OnClickEffectBack : MonoBehaviour
     {
         // 이미지 크기 지정
         orignalScale = transform.localScale;
-        pressedScale = orignalScale * 0.9f;
-        overScale = orignalScale * 1.05f;
+        pressedScale = orignalScale * pressedMult;
+        overScale = orignalScale * overMult;
     }
 
     // Update is called once per frame
@@ -62,9 +70,11 @@ public class Park_OnClickEffectBack : MonoBehaviour
         {
             startOverScale = StartCoroutine(StartOverScale());
 
-            // ***********************************
-            // 클릭했을때 이벤트 작성
-            // ***********************************
+            //*********************************
+            // 씬 변경 스크립트
+            //ex)
+            //SceneManager.LoadScene(scene);
+            //*********************************
 
             isPressed = false;
         }

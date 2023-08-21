@@ -1,6 +1,15 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Deemo/Assets/Prefabs/Normal_JudgeLine.prefab.meta
 guid: f5b196858ced26a409aa4e907b8a5a3e
 PrefabImporter:
+=======
+<<<<<<<< HEAD:Deemo/Assets/Resources/MusicJSONs/purewhite.hard.json.meta
+guid: b000eaa7e60767a479a7107fa7fd8fc4
+========
+guid: 5aa1571d070b0f74b8eea3c4fc2b261f
+>>>>>>>> origin/Choi:Deemo/Assets/Resources/MusicJSONs/heartofwitch.hard.json.meta
+TextScriptImporter:
+>>>>>>> origin/Park:Deemo/Assets/Resources/MusicJSONs/heartofwitch.hard.json.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
