@@ -102,8 +102,6 @@ public class Park_MoveContent : MonoBehaviour
             isCoroutine = false;
         }
 
-<<<<<<< HEAD
-=======
         //// 이제 덜덜 떨리지 않고 완료되도록 보강
         //if (!isScrolling)
         //{
@@ -126,7 +124,7 @@ public class Park_MoveContent : MonoBehaviour
         //    // 위치 보정
         //    rectTransform.anchoredPosition = new Vector2(rectTransform.anchoredPosition.x, targetY);
         //}
->>>>>>> origin/Choi
+
     }
 
     //private void Update()
