@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Park_OnClickEffectBack : MonoBehaviour
 {
+    public Park_MainSceneOpacity park_MainSceneOpacity;
+
     // 실행 중인 코루틴 추적하기
     private Coroutine startOverScale;
     private Coroutine startOrignalScale;
@@ -75,6 +77,11 @@ public class Park_OnClickEffectBack : MonoBehaviour
             startOverScale = StartCoroutine(StartOverScale());
 
             loadScene.Run(delay, sceneName);
+<<<<<<< HEAD
+=======
+
+            StartCoroutine(park_MainSceneOpacity.EndOpacity());
+>>>>>>> origin/Park
 
             isPressed = false;
         }

@@ -8,10 +8,15 @@ public class Choi_GameManager : MonoBehaviour
     public static Choi_GameManager instance;
     public TMP_Text txt_Accuracy;
     public TMP_Text judgeText;
+<<<<<<< HEAD
     public TMP_Text comboText;
     public TMP_Text comboText_Shadow;
     public string formattedAccuracy = "0.00";
 
+=======
+    public TMP_Text timingText;
+    public string formattedAccuracy = "0.00";
+>>>>>>> origin/Park
     private int total_Charming;
     private int total_Normal;
     private int total_Miss;
@@ -45,8 +50,28 @@ public class Choi_GameManager : MonoBehaviour
 
     }
 
+<<<<<<< HEAD
     public void AddMiss()
     {
+=======
+    public void AddCharming()
+    {
+        total_Charming++;
+        AddCombo();
+        judgeText.text = "(" + total_Combo.ToString() + ") " + "CHARMING!";
+    }
+
+    public void AddNormal()
+    {
+        total_Normal++;
+        AddCombo();
+        judgeText.text = "(" + total_Combo.ToString() + ") " + "NORMAL!";
+
+    }
+
+    public void AddMiss()
+    {
+>>>>>>> origin/Park
         total_Miss++;
         ResetCombo();
         judgeText.text = "(" + total_Combo.ToString() + ") " + "MISS!";
@@ -55,15 +80,21 @@ public class Choi_GameManager : MonoBehaviour
     public void AddCombo()
     {
         total_Combo++;
+<<<<<<< HEAD
         ChangeComboText();
+=======
+>>>>>>> origin/Park
         GetAccuracy();
     }
 
     public void ResetCombo()
     {
         total_Combo = 0;
+<<<<<<< HEAD
         comboText.text = "";
         comboText_Shadow.text = "";
+=======
+>>>>>>> origin/Park
         GetAccuracy();
     }
 
@@ -98,7 +129,12 @@ public class Choi_GameManager : MonoBehaviour
 
         float total_Accuracy;
 
+<<<<<<< HEAD
         total_Accuracy = Mathf.Clamp(((total_Charming * 1.0f) + (total_Normal * 0.9f) - (total_Miss * 1.0f)) / total_Notes, 0f, 1f);
+=======
+
+            total_Accuracy = Mathf.Clamp(((total_Charming * 1.0f) + (total_Normal * 0.9f) - (total_Miss * 1.0f)) / total_Notes, 0f, 1f);
+>>>>>>> origin/Park
 
         total_Accuracy *= 100f; // Convert to percentage
         Debug.Log("Total Accuracy: " + total_Accuracy);
