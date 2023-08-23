@@ -31,28 +31,19 @@ public class Choi_JudgeManager : MonoBehaviour
             if (note_PosY < judge_Charming)
             {
                 note_CollisionDetection.Hide();
-<<<<<<< HEAD
                 ChangeColor(note_SpriteRenderer, charming_Color);
-=======
->>>>>>> origin/Park
                 Choi_GameManager.instance.AddCharming();
             }
             else if (note_PosY < judge_Normal)
             {
                 note_CollisionDetection.Hide();
-<<<<<<< HEAD
                 ChangeColor(note_SpriteRenderer, normal_Color);
-=======
->>>>>>> origin/Park
                 Choi_GameManager.instance.AddNormal();
             }
             else
             {
                 note_CollisionDetection.Hide();
-<<<<<<< HEAD
                 ChangeColor(note_SpriteRenderer, miss_Color);
-=======
->>>>>>> origin/Park
                 Choi_GameManager.instance.AddMiss();
             }
         }

@@ -443,21 +443,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea5df0e5b9f51a3448de6313ddc163f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-=======
   park_MainSceneOpacity: {fileID: 456752829}
->>>>>>> origin/Park
   mainCamera: {fileID: 1354481801}
   targetLayer:
     serializedVersion: 2
     m_Bits: 32
   loadScene: {fileID: 1765540894}
   sceneName: MusicSelectionSceneLoad
-<<<<<<< HEAD
-  delay: 0
-=======
   delay: 1
->>>>>>> origin/Park
   pressedMult: 0.9
   overMult: 1.05
 --- !u!1 &68412792
@@ -781,11 +774,7 @@ Transform:
   - {fileID: 1765540893}
   - {fileID: 1936002851}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 3
-=======
-  m_RootOrder: 4
->>>>>>> origin/Park
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &253349019
 GameObject:
@@ -1105,21 +1094,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea5df0e5b9f51a3448de6313ddc163f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-=======
   park_MainSceneOpacity: {fileID: 456752829}
->>>>>>> origin/Park
   mainCamera: {fileID: 1354481801}
   targetLayer:
     serializedVersion: 2
     m_Bits: 32
   loadScene: {fileID: 1765540894}
   sceneName: PlaySceneLoadingScene
-<<<<<<< HEAD
-  delay: 0
-=======
   delay: 1
->>>>>>> origin/Park
   pressedMult: 0.9
   overMult: 1.05
 --- !u!1 &576533337
@@ -1772,10 +1754,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   moveStart: 0
-<<<<<<< HEAD
-  moveEnd: 0.5
-=======
->>>>>>> origin/Park
 --- !u!1 &1337988101
 GameObject:
   m_ObjectHideFlags: 0
@@ -1992,7 +1970,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1354481799
 GameObject:

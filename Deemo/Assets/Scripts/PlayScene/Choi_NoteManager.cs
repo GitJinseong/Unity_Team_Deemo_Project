@@ -5,11 +5,7 @@ using System.Collections;
 public class Choi_NoteManager : MonoBehaviour
 {
     public static Choi_NoteManager instance;
-<<<<<<< HEAD
     public GameObject noteParentPrefab;
-=======
-    public GameObject notePrefab;
->>>>>>> origin/Park
     public Transform[] notes;
 
     //public Transform notes_1;
@@ -50,18 +46,11 @@ public class Choi_NoteManager : MonoBehaviour
 
             for (int j = 0; j < initialPoolSize; j++)
             {
-<<<<<<< HEAD
                 GameObject noteParent = Instantiate(noteParentPrefab);
                 GameObject note = noteParent.transform.Find("Note").gameObject;
                 noteParent.transform.SetParent(notes[i]);
                 note.SetActive(false);
                 notes_Pool[i].Add(noteParent);
-=======
-                GameObject note = Instantiate(notePrefab);
-                note.transform.SetParent(notes[i]);
-                note.SetActive(false);
-                notes_Pool[i].Add(note);
->>>>>>> origin/Park
             }
         }
         // originalScale = notes_Pool[0][0].transform.localScale;
@@ -133,7 +122,6 @@ public class Choi_NoteManager : MonoBehaviour
     //    return stringPos;
     //}
 
-<<<<<<< HEAD
 
     private GameObject GetPooledNote(int noteLine)
     {
@@ -147,20 +135,6 @@ public class Choi_NoteManager : MonoBehaviour
             }
         }
         return null;
-=======
-
-    private GameObject GetPooledNote(int noteLine)
-    {
-        foreach (GameObject note in notes_Pool[noteLine])
-        {
-            if (!note.activeInHierarchy)
-            {
-                return note;
-            }
-        }
-        return null;
-
->>>>>>> origin/Park
     }
 
     public string CalculateStringPosition(float adjustedX, float leftBoundary, float rightBoundary)

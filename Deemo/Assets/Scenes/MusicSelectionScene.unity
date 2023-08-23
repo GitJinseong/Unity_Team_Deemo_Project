@@ -293,14 +293,10 @@ MonoBehaviour:
   mainCamera: {fileID: 519420031}
   targetLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 32
   loadScene: {fileID: 420567284}
   sceneName: PlaySceneLoadingScene
-<<<<<<< HEAD
-  delay: 0
-=======
   delay: 1
->>>>>>> origin/Park
   pressedMult: 0.9
   overMult: 1.05
 --- !u!61 &40640955
@@ -2274,16 +2270,10 @@ MonoBehaviour:
   mainCamera: {fileID: 519420031}
   targetLayer:
     serializedVersion: 2
-    m_Bits: 128
-<<<<<<< HEAD
-  loadScene: {fileID: 0}
-  sceneName: 
-  delay: 0
-=======
+    m_Bits: 32
   loadScene: {fileID: 420567284}
   sceneName: MainSceneLoad
   delay: 1
->>>>>>> origin/Park
   pressedMult: 0.9
   overMult: 1.05
 --- !u!58 &854945468
