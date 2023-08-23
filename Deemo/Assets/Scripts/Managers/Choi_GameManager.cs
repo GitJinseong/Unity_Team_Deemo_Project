@@ -8,14 +8,14 @@ public class Choi_GameManager : MonoBehaviour
     public static Choi_GameManager instance;
     public TMP_Text txt_Accuracy;
     public TMP_Text judgeText;
-    public TMP_Text timingText;
+    public TMP_Text comboText;
+    public TMP_Text comboText_Shadow;
     public string formattedAccuracy = "0.00";
-    private int total_Notes;
+
     private int total_Charming;
     private int total_Normal;
     private int total_Miss;
     private int total_Combo;
-    private float total_Accuracy;
 
     public int activatedJudgeColliderCount = 0;
 
@@ -24,10 +24,10 @@ public class Choi_GameManager : MonoBehaviour
         instance = this;
     }
 
-    public void ChangeTimingText(string txt)
+    public void ChangeComboText()
     {
-        timingText.text = txt;
-
+        comboText.text = total_Combo.ToString();
+        comboText_Shadow.text = comboText.text;
     }
 
     public void AddCharming()
@@ -55,13 +55,25 @@ public class Choi_GameManager : MonoBehaviour
     public void AddCombo()
     {
         total_Combo++;
+        ChangeComboText();
         GetAccuracy();
     }
 
     public void ResetCombo()
     {
         total_Combo = 0;
+        comboText.text = "";
+        comboText_Shadow.text = "";
         GetAccuracy();
+    }
+
+    public void RemoveHistory()
+    {
+        formattedAccuracy = "0.00";
+        total_Charming = 0;
+        total_Normal = 0;
+        total_Miss = 0;
+        total_Combo = 0;
     }
 
     public int GetTrueNotes()
@@ -86,8 +98,7 @@ public class Choi_GameManager : MonoBehaviour
 
         float total_Accuracy;
 
-
-            total_Accuracy = Mathf.Clamp(((total_Charming * 1.0f) + (total_Normal * 0.9f) - (total_Miss * 1.0f)) / total_Notes, 0f, 1f);
+        total_Accuracy = Mathf.Clamp(((total_Charming * 1.0f) + (total_Normal * 0.9f) - (total_Miss * 1.0f)) / total_Notes, 0f, 1f);
 
         total_Accuracy *= 100f; // Convert to percentage
         Debug.Log("Total Accuracy: " + total_Accuracy);
