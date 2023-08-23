@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Park_OnClickEffectBack : MonoBehaviour
 {
+    public Park_MainSceneOpacity park_MainSceneOpacity;
+
     // 실행 중인 코루틴 추적하기
     private Coroutine startOverScale;
     private Coroutine startOrignalScale;
@@ -15,13 +17,17 @@ public class Park_OnClickEffectBack : MonoBehaviour
     // 마우스 포인터가 오브젝트 위에 있는지 체크 하기 위한 변수(LayerMask)
     public LayerMask targetLayer;
 
+    // 로드 씬용 변수
+    public Choi_LoadScene loadScene;
+
     // 이미지 크기 변경을 위한 변수
     private Vector2 orignalScale;
     private Vector2 pressedScale;
     private Vector2 overScale;
 
     // 씬 변경을 위한 변수
-    public string scene;
+    public string sceneName;
+    public float delay = 0f;
 
     // 이미지 크기 배수 변경의 위한 변수
     public float pressedMult;
@@ -70,11 +76,9 @@ public class Park_OnClickEffectBack : MonoBehaviour
         {
             startOverScale = StartCoroutine(StartOverScale());
 
-            //*********************************
-            // 씬 변경 스크립트
-            //ex)
-            //SceneManager.LoadScene(scene);
-            //*********************************
+            loadScene.Run(delay, sceneName);
+
+            StartCoroutine(park_MainSceneOpacity.EndOpacity());
 
             isPressed = false;
         }
