@@ -184,7 +184,7 @@ MonoBehaviour:
   m_text: "\uD310\uC815 \uC870\uC808"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 18307a92a90ff37429012a0d272eaf16, type: 2}
-  m_sharedMaterial: {fileID: -15616213555381910, guid: 9985d5f04cf84b44fbd8bc2405aa6b94, type: 2}
+  m_sharedMaterial: {fileID: -15616213555381910, guid: 18307a92a90ff37429012a0d272eaf16, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -480,7 +480,7 @@ MonoBehaviour:
   m_text: "\uBAA9\uD45C \uB2EC\uC131"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 18307a92a90ff37429012a0d272eaf16, type: 2}
-  m_sharedMaterial: {fileID: -15616213555381910, guid: 9985d5f04cf84b44fbd8bc2405aa6b94, type: 2}
+  m_sharedMaterial: {fileID: -15616213555381910, guid: 18307a92a90ff37429012a0d272eaf16, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1733,7 +1733,7 @@ MonoBehaviour:
   m_text: "\uB178\uD2B8 \uC774\uD399\uD2B8"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 18307a92a90ff37429012a0d272eaf16, type: 2}
-  m_sharedMaterial: {fileID: -15616213555381910, guid: 9985d5f04cf84b44fbd8bc2405aa6b94, type: 2}
+  m_sharedMaterial: {fileID: -15616213555381910, guid: 18307a92a90ff37429012a0d272eaf16, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2073,7 +2073,7 @@ MonoBehaviour:
   m_text: "\uD074\uB77C\uC6B0\uB4DC \uC800\uC7A5"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 18307a92a90ff37429012a0d272eaf16, type: 2}
-  m_sharedMaterial: {fileID: -15616213555381910, guid: 9985d5f04cf84b44fbd8bc2405aa6b94, type: 2}
+  m_sharedMaterial: {fileID: -15616213555381910, guid: 18307a92a90ff37429012a0d272eaf16, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2369,7 +2369,7 @@ MonoBehaviour:
   m_text: "\uD074\uB798\uC2DDUI"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 18307a92a90ff37429012a0d272eaf16, type: 2}
-  m_sharedMaterial: {fileID: -15616213555381910, guid: 9985d5f04cf84b44fbd8bc2405aa6b94, type: 2}
+  m_sharedMaterial: {fileID: -15616213555381910, guid: 18307a92a90ff37429012a0d272eaf16, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3086,7 +3086,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 282.5}
+  m_AnchoredPosition: {x: 0, y: 221}
   m_SizeDelta: {x: 1280, y: 55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1363098209
@@ -3630,7 +3630,7 @@ MonoBehaviour:
   m_text: "\uD0A4 \uC0AC\uC6B4\uB4DC"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 18307a92a90ff37429012a0d272eaf16, type: 2}
-  m_sharedMaterial: {fileID: -15616213555381910, guid: 9985d5f04cf84b44fbd8bc2405aa6b94, type: 2}
+  m_sharedMaterial: {fileID: -15616213555381910, guid: 18307a92a90ff37429012a0d272eaf16, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3693,7 +3693,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1588665961
@@ -4178,7 +4178,7 @@ MonoBehaviour:
   m_text: "\uC21C\uC704\uD45C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 18307a92a90ff37429012a0d272eaf16, type: 2}
-  m_sharedMaterial: {fileID: -15616213555381910, guid: 9985d5f04cf84b44fbd8bc2405aa6b94, type: 2}
+  m_sharedMaterial: {fileID: -15616213555381910, guid: 18307a92a90ff37429012a0d272eaf16, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4577,7 +4577,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -282.5}
+  m_AnchoredPosition: {x: 0, y: -221}
   m_SizeDelta: {x: 1280, y: 55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2126733810

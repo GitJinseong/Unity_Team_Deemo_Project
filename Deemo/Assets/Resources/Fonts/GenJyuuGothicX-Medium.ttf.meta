@@ -1,4 +1,7 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 9563d3aa124ceba4283c28f3e00a22e3
+=======
 guid: 9563d3aa124ceba4283c28f3e00a22e3
 TrueTypeFontImporter:
   externalObjects: {}
@@ -19,3 +22,4 @@ TrueTypeFontImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+>>>>>>> origin/Park

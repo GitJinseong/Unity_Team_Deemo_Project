@@ -6,40 +6,43 @@ using UnityEngine;
 public class Choi_GameManager : MonoBehaviour
 {
     public static Choi_GameManager instance;
+    public GameObject obj_effect;
+    public GameObject obj_Charming;
     public TMP_Text txt_Accuracy;
     public TMP_Text judgeText;
-    public TMP_Text timingText;
+    public TMP_Text comboText;
+    public TMP_Text comboText_Shadow;
     public string formattedAccuracy = "0.00";
+
     private int total_Charming;
     private int total_Normal;
     private int total_Miss;
     private int total_Combo;
-
-    public int activatedJudgeColliderCount = 0;
 
     private void Awake()
     {
         instance = this;
     }
 
-    public void ChangeTimingText(string txt)
+    public void ChangeComboText()
     {
-        timingText.text = txt;
-
+        comboText.text = total_Combo.ToString();
+        comboText_Shadow.text = comboText.text;
     }
 
     public void AddCharming()
     {
         total_Charming++;
         AddCombo();
-        judgeText.text = "(" + total_Combo.ToString() + ") " + "CHARMING!";
+        obj_effect.SetActive(true);
+        obj_Charming.SetActive(true);
     }
 
     public void AddNormal()
     {
         total_Normal++;
         AddCombo();
-        judgeText.text = "(" + total_Combo.ToString() + ") " + "NORMAL!";
+        obj_effect.SetActive(true);
 
     }
 
@@ -47,18 +50,21 @@ public class Choi_GameManager : MonoBehaviour
     {
         total_Miss++;
         ResetCombo();
-        judgeText.text = "(" + total_Combo.ToString() + ") " + "MISS!";
+        obj_effect.SetActive(false);
     }
 
     public void AddCombo()
     {
         total_Combo++;
+        ChangeComboText();
         GetAccuracy();
     }
 
     public void ResetCombo()
     {
         total_Combo = 0;
+        comboText.text = "";
+        comboText_Shadow.text = "";
         GetAccuracy();
     }
 
@@ -93,8 +99,7 @@ public class Choi_GameManager : MonoBehaviour
 
         float total_Accuracy;
 
-
-            total_Accuracy = Mathf.Clamp(((total_Charming * 1.0f) + (total_Normal * 0.9f) - (total_Miss * 1.0f)) / total_Notes, 0f, 1f);
+        total_Accuracy = Mathf.Clamp(((total_Charming * 1.0f) + (total_Normal * 0.9f) - (total_Miss * 1.0f)) / total_Notes, 0f, 1f);
 
         total_Accuracy *= 100f; // Convert to percentage
         Debug.Log("Total Accuracy: " + total_Accuracy);
