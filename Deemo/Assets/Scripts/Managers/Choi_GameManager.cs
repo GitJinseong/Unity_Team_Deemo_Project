@@ -28,6 +28,7 @@ public class Choi_GameManager : MonoBehaviour
     {
         comboText.text = total_Combo.ToString();
         comboText_Shadow.text = comboText.text;
+<<<<<<< HEAD
     }
 
     public void CallComboEffect()
@@ -46,21 +47,33 @@ public class Choi_GameManager : MonoBehaviour
             obj_Charming.SetActive(false);
             obj_Charming.SetActive(true);
         }
+=======
+>>>>>>> origin/Park
     }
 
     public void AddCharming()
     {
         total_Charming++;
         AddCombo();
+<<<<<<< HEAD
         CallComboEffect();
         CallCharmingEffect();
+=======
+        obj_effect.SetActive(true);
+        obj_Charming.SetActive(true);
+>>>>>>> origin/Park
     }
 
     public void AddNormal()
     {
         total_Normal++;
         AddCombo();
+<<<<<<< HEAD
         CallComboEffect();
+=======
+        obj_effect.SetActive(true);
+
+>>>>>>> origin/Park
     }
 
     public void AddMiss()
@@ -68,7 +81,10 @@ public class Choi_GameManager : MonoBehaviour
         total_Miss++;
         ResetCombo();
         obj_effect.SetActive(false);
+<<<<<<< HEAD
         obj_Charming.SetActive(false);
+=======
+>>>>>>> origin/Park
     }
 
     public void AddCombo()
