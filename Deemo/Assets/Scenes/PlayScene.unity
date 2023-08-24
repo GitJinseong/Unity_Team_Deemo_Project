@@ -620,13 +620,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obj_effect: {fileID: 1698363862}
-<<<<<<< HEAD
   obj_Charming: {fileID: 8496125504225803692}
-=======
-  obj_Charming: {fileID: 896395092}
->>>>>>> origin/Park
   txt_Accuracy: {fileID: 1646966960}
-  judgeText: {fileID: 1036355066}
+  judgeText: {fileID: 791161795}
   comboText: {fileID: 939342603}
   comboText_Shadow: {fileID: 500285112}
   formattedAccuracy: 0.00
@@ -1551,11 +1547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcf7426bd25962c4bbcd457584d08542, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  delayInSeconds: 9
-=======
-  delayInSeconds: 0
->>>>>>> origin/Park
+  delayInSeconds: 1
 --- !u!114 &500285112 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8496125504200084760, guid: 5a796d80464534a4580628b6a49a5f50, type: 3}
@@ -3017,13 +3009,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Title
   m_isRightToLeft: 0
-<<<<<<< HEAD
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-=======
   m_fontAsset: {fileID: 11400000, guid: e6134479352353c41ac384772e259551, type: 2}
   m_sharedMaterial: {fileID: 6050147968299687969, guid: e6134479352353c41ac384772e259551, type: 2}
->>>>>>> origin/Park
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3112,11 +3099,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-<<<<<<< HEAD
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-=======
   - {fileID: 6050147968299687969, guid: e6134479352353c41ac384772e259551, type: 2}
->>>>>>> origin/Park
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6273,11 +6256,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a796d80464534a4580628b6a49a5f50, type: 3}
-<<<<<<< HEAD
 --- !u!1 &8496125504225803692 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8496125504280385837, guid: 5a796d80464534a4580628b6a49a5f50, type: 3}
   m_PrefabInstance: {fileID: 8496125504225803691}
   m_PrefabAsset: {fileID: 0}
-=======
->>>>>>> origin/Park
