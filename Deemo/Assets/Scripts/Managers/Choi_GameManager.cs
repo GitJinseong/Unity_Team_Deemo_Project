@@ -6,6 +6,8 @@ using UnityEngine;
 public class Choi_GameManager : MonoBehaviour
 {
     public static Choi_GameManager instance;
+    public GameObject obj_effect;
+    public GameObject obj_Charming;
     public TMP_Text txt_Accuracy;
     public TMP_Text judgeText;
     public TMP_Text comboText;
@@ -16,8 +18,6 @@ public class Choi_GameManager : MonoBehaviour
     private int total_Normal;
     private int total_Miss;
     private int total_Combo;
-
-    public int activatedJudgeColliderCount = 0;
 
     private void Awake()
     {
@@ -30,26 +30,45 @@ public class Choi_GameManager : MonoBehaviour
         comboText_Shadow.text = comboText.text;
     }
 
+    public void CallComboEffect()
+    {
+        if (total_Combo >= 5)
+        {
+            obj_effect.SetActive(false);
+            obj_effect.SetActive(true);
+        }
+    }
+
+    public void CallCharmingEffect()
+    {
+        if (total_Combo >= 5)
+        {
+            obj_Charming.SetActive(false);
+            obj_Charming.SetActive(true);
+        }
+    }
+
     public void AddCharming()
     {
         total_Charming++;
         AddCombo();
-        judgeText.text = "(" + total_Combo.ToString() + ") " + "CHARMING!";
+        CallComboEffect();
+        CallCharmingEffect();
     }
 
     public void AddNormal()
     {
         total_Normal++;
         AddCombo();
-        judgeText.text = "(" + total_Combo.ToString() + ") " + "NORMAL!";
-
+        CallComboEffect();
     }
 
     public void AddMiss()
     {
         total_Miss++;
         ResetCombo();
-        judgeText.text = "(" + total_Combo.ToString() + ") " + "MISS!";
+        obj_effect.SetActive(false);
+        obj_Charming.SetActive(false);
     }
 
     public void AddCombo()
