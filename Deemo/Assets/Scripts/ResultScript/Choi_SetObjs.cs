@@ -21,15 +21,36 @@ public class Choi_SetObjs : MonoBehaviour
         switch (Park_GameManager.instance.difficulty)
         {
             case "Hard":
-                difficulty = "HARD LV10";
+                for (int i = 0; i < Park_GameManager.instance.musicInformation["Title"].Count; i++)
+                {
+                    if (Park_GameManager.instance.musicInformation["Title"][i] == Park_GameManager.instance.title)
+                    {
+                        difficulty = "Hard LV" + Park_GameManager.instance.musicInformation["Hard"][i];
+                    }
+                }
+
                 break;
 
             case "Normal":
-                difficulty = "NORMAL LV8";
+                for (int i = 0; i < Park_GameManager.instance.musicInformation["Title"].Count; i++)
+                {
+                    if (Park_GameManager.instance.musicInformation["Title"][i] == Park_GameManager.instance.title)
+                    {
+                        difficulty = "Normal LV" + Park_GameManager.instance.musicInformation["Normal"][i];
+                    }
+                }
+
                 break;
 
             case "Easy":
-                difficulty = "Easy LV4";
+                for (int i = 0; i < Park_GameManager.instance.musicInformation["Title"].Count; i++)
+                {
+                    if (Park_GameManager.instance.musicInformation["Title"][i] == Park_GameManager.instance.title)
+                    {
+                        difficulty = "Easy LV" + Park_GameManager.instance.musicInformation["Easy"][i];
+                    }
+                }
+
                 break;
         }
 
