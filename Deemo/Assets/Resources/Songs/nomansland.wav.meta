@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Deemo/Assets/Resources/Songs/nomansland.wav.meta
 guid: c60348ac5d72d124bb4b3eb749932326
+========
+guid: d8ac6f5eb156cd948822f655f296ea93
+>>>>>>>> origin/Park:Deemo/Assets/Resources/Scenes/MusicSelectionScene/MusicList/MusicFileName/aliceinsecretcircus.wav.meta
 AudioImporter:
   externalObjects: {}
   serializedVersion: 6

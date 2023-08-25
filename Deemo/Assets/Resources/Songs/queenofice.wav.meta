@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Deemo/Assets/Resources/Songs/queenofice.wav.meta
 guid: 61456ade54802e54da024e0f5520a947
+========
+guid: ec0922dbb3eb9fb4a899efb6dc1a99a6
+>>>>>>>> origin/Park:Deemo/Assets/Resources/Scenes/MusicSelectionScene/MusicList/MusicFileName/altale.wav.meta
 AudioImporter:
   externalObjects: {}
   serializedVersion: 6
