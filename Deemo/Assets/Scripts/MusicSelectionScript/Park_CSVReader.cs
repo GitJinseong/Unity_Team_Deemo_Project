@@ -160,26 +160,4 @@ public class Park_CSVReader : MonoBehaviour
         // CSV 데이터를 PlayerPrefs에 저장하기
         //Park_CSVReader.instance.SaveCSVDataToPlayerPrefs("MusicList");
     }
-
-    // PlayerPrefs에 저장된 값을 ["키"][인덱스]로 접근하는 함수
-    public string GetValueAtIndexFromPlayerPrefs(string key, int index)
-    {
-        List<string> values = GetValuesFromPlayerPrefs(key);
-        if (index >= 0 && index < values.Count)
-        {
-            return values[index];
-        }
-        return null;
-    }
-
-    private List<string> GetValuesFromPlayerPrefs(string key)
-    {
-        string valuesString = PlayerPrefs.GetString(key, "");
-        if (!string.IsNullOrEmpty(valuesString))
-        {
-            return valuesString.Split(',').ToList();
-        }
-        return new List<string>();
-    }
-
 }

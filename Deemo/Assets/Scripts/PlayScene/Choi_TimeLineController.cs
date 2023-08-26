@@ -2,12 +2,23 @@ using UnityEngine;
 
 public class Choi_TimeLineController : MonoBehaviour
 {
+    public GameObject[] notes;
+    public Park_MainSceneOpacity mainSceneOpacity;
     public RectTransform movingObject;
+    public Choi_LoadScene loadScene;
     public float duration = 30f;
+    private float startDelay = 6.0f;
     private float startTime;
-    private float startX = 0f;
-    private float endX = 1280f;
+    private float startX = 16f;
+    private float endX = 1264f;
+    private string sceneName = "ResultScene";
     private bool isStarted = false;
+
+    private void Awake()
+    {
+        int index = Park_GameManager.index;
+        duration = float.Parse(Park_GameManager.instance.musicInformation["Time"][index]) - 3.0f;
+    }
 
     private void Start()
     {
@@ -28,8 +39,7 @@ public class Choi_TimeLineController : MonoBehaviour
 
         if (t >= 1f)
         {
-            // 움직임이 끝났을 때 필요한 처리
-            enabled = false; // 이 스크립트를 비활성화하여 업데이트 중지
+            SetAllNoteActiveForFalse(); // 모든 노트가 비활성화되었는지 확인
         }
     }
 
@@ -38,4 +48,18 @@ public class Choi_TimeLineController : MonoBehaviour
         isStarted = true;
         startTime = Time.time;
     }
+
+    private void SetAllNoteActiveForFalse()
+    {
+        foreach (GameObject note in notes)
+        {
+            note.SetActive(false); // 각 노트를 비활성화합니다.
+        }
+
+        // 모든 노트가 비활성화되었을 때의 처리
+        enabled = false; // 이 스크립트를 비활성화하여 업데이트 중지
+        StartCoroutine(mainSceneOpacity.EndOpacity());
+        loadScene.Run(1f, sceneName);
+    }
+
 }

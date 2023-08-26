@@ -66,3 +66,6 @@ TagManager:
   - name: SettingUI
     uniqueID: 2840000663
     locked: 0
+  - name: ReadyUI
+    uniqueID: 1500043885
+    locked: 0

@@ -6,6 +6,7 @@ public class Choi_RetryButtonController : MonoBehaviour
 {
     public GameObject obj_SettingUI;
     public Choi_LoadScene loadScene;
+    public string scenename;
     public Park_MainSceneOpacity mainSceneOpacity;
 
     private List<GameObject> list = new List<GameObject>();
@@ -16,7 +17,7 @@ public class Choi_RetryButtonController : MonoBehaviour
     {
 
         Time.timeScale = 1.0f;
-        loadScene.RunForPause(1f, "PlaySceneLoadingScene");
+        loadScene.RunForPause(1f, scenename);
         StartCoroutine(mainSceneOpacity.EndOpacityForPause());
 
         StartCoroutine(btnOpacity());
